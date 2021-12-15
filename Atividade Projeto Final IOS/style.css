@@ -1,0 +1,181 @@
+*
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+body
+{
+    min-height: 100vh;
+    background-image: url(https://image.freepik.com/vetores-gratis/fundo-monocromatico-realista-de-folhas-tropicais_52683-31304.jpg);
+}
+
+header{
+    width: 100%;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #202020d5;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+li a:hover{
+    color: #7bad84;
+    font-weight: lighter;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav ul{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.nav-lista-container{
+    max-width: 360px;
+    min-width: 450px;
+}
+
+.container
+{
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #7bad84bd;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 5px;
+    width: 80%;
+}
+
+.main-título{
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+p{
+    font-size: 1.2em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.container2{
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #7bad84bd;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 5px;
+    width: 45%;
+}
+
+h3{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.img__duo{
+    width: 200px;
+    border-radius: 10%;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.img__duo:hover{
+    opacity: 0.2;
+    transform: scale(1.1);
+    transition: all .5s ease 0s;
+}
+
+.main__duo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+
+
+a:hover{
+    color: #407F46;
+}
+
+.a2:hover{
+    color: #59BA47;
+}
+
+.p__a{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+footer{
+    margin-top: 1rem;
+    border-top: 1px solid;
+    padding: 1px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer__p{
+    font-size: 18px;
+    margin: 10px;
+}
+
+.footer__span{
+    font-size: 18px;
+    color: #267030;
+}
+
+@media(max-width: 1240px){
+    
+    img{
+        width: 300px;
+    }
+
+    .img__duo{
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
